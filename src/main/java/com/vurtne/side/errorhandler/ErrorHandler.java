@@ -20,7 +20,7 @@ public class ErrorHandler{
 
     @ExceptionHandler(TokenException.class)
     public VResponse onTokenException(Exception ex) {
-        return VResponse.Error("Token Error!");
+        return VResponse.Error(ex.getMessage());
     }
 
     /**
