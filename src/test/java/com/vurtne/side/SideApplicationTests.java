@@ -24,7 +24,7 @@ class SideApplicationTests {
 
     @Test
     public void encryptPwd() {
-        String result = stringEncryptor.encrypt("vurtne-1252864727");
+        String result = stringEncryptor.encrypt("DCblimbFfpkYBk5A1dokV3nMgnAKFxPb");
         System.out.println("==================");
         System.out.println(result);
         System.out.println("==================");

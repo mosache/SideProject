@@ -21,8 +21,8 @@ logging:
 
 tx-oss:
   app-id: ENC(FTUq82SIkTQzsVy4Ctk681+nROVk0ZRn)
-  secret-id: ENC(ngRUqCdB2pYuqsWY3/8OtnYHappos2aHXVUJfh8SKNkUZfHnvGJKQQiD/wMg5UFk)
-  secret-key: ENC(Lu9er9AgD5gwvKAlWuMQ20eyzFTcOyJ+J+Muw+ZDrXeeBgjjmJHHoWhQ7Gl10vRP)
+  secret-id: ENC(2I9KgyJ7YahwyWKFrSSF/pQlYyQrafteraXy2EEdQnrxxccBA7lhQu1P7UaWFZXQ)
+  secret-key: ENC(8xHLrtezH/tku0kipaJAuwfpQyE/bdXWRae3jE1LAQKg8WedtwGh9QQFE4hifBEc)
   bucket-name: ENC(xPptrMKFERmY/ShyqrlD3kyZtYmWMFoqRrwq3JxT56s=)
 jasypt:
   encryptor:
