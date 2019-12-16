@@ -1,14 +1,9 @@
 package com.vurtne.side.dto;
 
 import com.vurtne.side.model.User;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
-import java.sql.Timestamp;
-import java.util.Date;
-
 @Data
-@AllArgsConstructor(staticName = "from")
 public class UserInfo {
     private String userNO;
 
@@ -16,8 +11,16 @@ public class UserInfo {
 
     private Long createTime;
 
+    private String token;
+
     public static UserInfo formUser(User user) {
-        return UserInfo.from("",user.getUsername(),user.getCreate_time());
+        return new UserInfo(user.getId() + "",user.getUsername(),user.getCreate_time());
+    }
+
+    public UserInfo(String userNO, String username, Long createTime) {
+        this.userNO = userNO;
+        this.username = username;
+        this.createTime = createTime;
     }
 }
 

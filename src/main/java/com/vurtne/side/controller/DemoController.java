@@ -1,5 +1,6 @@
 package com.vurtne.side.controller;
 
+import com.vurtne.side.annotation.PassToken;
 import com.vurtne.side.exception.TokenException;
 import com.vurtne.side.model.VResponse;
 import org.springframework.web.bind.annotation.GetMapping;
