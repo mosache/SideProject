@@ -18,8 +18,12 @@ logging:
   level:
     com.vurtne.side.mapper : debug
 
+
 tx-oss:
   app-id: 1252864727
   secret-id: AKIDU1cGvShaCh9dCnsdGmATdq4JQo377Yel
   secret-key: AGKEziJl8fAzmcL7jCXvOtGUZVK3cwGf
   bucket-name: vurtne-1252864727
+jasypt:
+  encryptor:
+    password: xxx
