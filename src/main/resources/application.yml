@@ -9,7 +9,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 123456
+    password: ENC(7zovvVtLBhESyS5AHsxrPw==)
     url: jdbc:mysql://localhost:3308/vDataBase
   servlet:
     multipart:
@@ -20,10 +20,10 @@ logging:
 
 
 tx-oss:
-  app-id: 1252864727
-  secret-id: AKIDU1cGvShaCh9dCnsdGmATdq4JQo377Yel
-  secret-key: AGKEziJl8fAzmcL7jCXvOtGUZVK3cwGf
-  bucket-name: vurtne-1252864727
+  app-id: ENC(FTUq82SIkTQzsVy4Ctk681+nROVk0ZRn)
+  secret-id: ENC(ngRUqCdB2pYuqsWY3/8OtnYHappos2aHXVUJfh8SKNkUZfHnvGJKQQiD/wMg5UFk)
+  secret-key: ENC(Lu9er9AgD5gwvKAlWuMQ20eyzFTcOyJ+J+Muw+ZDrXeeBgjjmJHHoWhQ7Gl10vRP)
+  bucket-name: ENC(xPptrMKFERmY/ShyqrlD3kyZtYmWMFoqRrwq3JxT56s=)
 jasypt:
   encryptor:
-    password: xxx
+    password: ${my_salt}

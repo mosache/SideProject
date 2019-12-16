@@ -67,9 +67,11 @@ public class FileUploadController {
             VResponse.Error("上传文件失败！");
         }
 
+
         if (localFile.exists()){
             localFile.delete();
         }
+
 
         return VResponse.OK(UpLoadFileUtil.getUpLoadedFileUrl(filename));
     }

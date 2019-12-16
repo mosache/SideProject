@@ -25,8 +25,7 @@ public class FileService {
         try {
             return ossUtil.simpleUpLoad(bucketName,objectKey,file);
         } catch (Exception e) {
-            e.printStackTrace();
+            throw new RuntimeException("上传文件失败！");
         }
-        return null;
     }
 }

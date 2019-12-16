@@ -124,7 +124,7 @@
                 <artifactId>jasypt-maven-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                    <path>file:/Users/vurtne/Public/web/SideProject/src/main/resources/application.yml</path>
+                    <path>file:src/main/resources/application.yml</path>
                 </configuration>
             </plugin>
 
